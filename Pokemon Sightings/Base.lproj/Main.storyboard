@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -13,50 +14,63 @@
         <scene sceneID="gWp-dV-rwW">
             <objects>
                 <tableViewController id="auD-OL-M3v" customClass="PokemonTableViewController" customModule="Pokemon_Sightings" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="28" sectionFooterHeight="28" id="Ddx-sU-r0D">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" id="Ddx-sU-r0D">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PokemonCell" rowHeight="100" id="DEe-wc-qSv" customClass="PokemonTableViewCell" customModule="Pokemon_Sightings" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="375" height="100"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PokemonCell" rowHeight="80" id="DEe-wc-qSv" customClass="PokemonTableViewCell" customModule="Pokemon_Sightings" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DEe-wc-qSv" id="U8b-99-5Vt">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="99"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="79"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Se3-qq-t4r">
-                                            <rect key="frame" x="275" y="0.0" width="100" height="99.5"/>
+                                            <rect key="frame" x="275" y="0.0" width="100" height="79.5"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="100" id="S1T-L1-fUC"/>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="Z9J-rv-gMi"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4Q-mr-3zm">
-                                            <rect key="frame" x="8" y="8" width="259" height="38"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4Q-mr-3zm">
+                                            <rect key="frame" x="8" y="8" width="259" height="24"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="259" id="WDX-oL-aHw"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GyY-PL-Cs2">
-                                            <rect key="frame" x="8" y="78" width="100" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lng" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Fg-RK-Fec">
+                                            <rect key="frame" x="100" y="58.5" width="100" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="100" id="3mn-O0-jAu"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lng" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Fg-RK-Fec">
-                                            <rect key="frame" x="116" y="78" width="100" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GyY-PL-Cs2">
+                                            <rect key="frame" x="0.0" y="58.5" width="100" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="100" id="Tu1-Ht-WfD"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="trailing" secondItem="Se3-qq-t4r" secondAttribute="trailing" id="40q-xR-eQe"/>
-                                        <constraint firstItem="Se3-qq-t4r" firstAttribute="top" secondItem="U8b-99-5Vt" secondAttribute="top" id="6ma-oM-nLo"/>
-                                        <constraint firstAttribute="bottom" secondItem="Se3-qq-t4r" secondAttribute="bottom" id="Xgu-zO-S41"/>
+                                        <constraint firstItem="GyY-PL-Cs2" firstAttribute="leading" secondItem="U8b-99-5Vt" secondAttribute="leading" id="N00-ty-OcC"/>
+                                        <constraint firstItem="1Fg-RK-Fec" firstAttribute="leading" secondItem="GyY-PL-Cs2" secondAttribute="trailing" id="Ncf-wZ-mGS"/>
+                                        <constraint firstItem="Se3-qq-t4r" firstAttribute="top" secondItem="U8b-99-5Vt" secondAttribute="top" id="QiY-gT-dAG"/>
+                                        <constraint firstItem="E4Q-mr-3zm" firstAttribute="leading" secondItem="U8b-99-5Vt" secondAttribute="leadingMargin" id="Uqy-Qv-l1A"/>
+                                        <constraint firstAttribute="bottom" secondItem="Se3-qq-t4r" secondAttribute="bottom" id="Zlc-Cr-chE"/>
+                                        <constraint firstAttribute="trailing" secondItem="Se3-qq-t4r" secondAttribute="trailing" id="qng-ds-yxQ"/>
+                                        <constraint firstAttribute="bottom" secondItem="GyY-PL-Cs2" secondAttribute="bottom" id="uhh-lS-WxR"/>
+                                        <constraint firstAttribute="bottom" secondItem="1Fg-RK-Fec" secondAttribute="bottom" id="wKN-fl-lan"/>
+                                        <constraint firstItem="E4Q-mr-3zm" firstAttribute="top" secondItem="U8b-99-5Vt" secondAttribute="topMargin" id="xZt-9j-yWY"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>

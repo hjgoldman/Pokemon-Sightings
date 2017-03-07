@@ -31,22 +31,14 @@ class PokemonTableViewController: UITableViewController, AddPokemonDelegate{
                 self.pokemons.append(pokemon)
                 
             }
-            
-            //manually setting bad image urls to good image urls
-            let foo = self.pokemons[11]
-            foo.imageURL = "http://vignette2.wikia.nocookie.net/illogicopedia/images/6/61/Crystal_128_error.png"
 
-            let fooTwo = self.pokemons[14]
-            fooTwo.imageURL = "http://vignette2.wikia.nocookie.net/illogicopedia/images/6/61/Crystal_128_error.png"
-            
-            
             DispatchQueue.main.async {
                 self.tableView.reloadData()
             }
-        }.resume()
+            }.resume()
     }
     
-    func addPokemonDidSave(name :String, imageURL :String, latitude :Double, longitude :Double) {
+    private func postPokemon(name :String, imageURL :String, latitude :Double, longitude :Double) {
         let url = URL(string: "https://still-wave-26435.herokuapp.com/pokemon/")!
         
         var request = URLRequest(url: url)
@@ -61,11 +53,19 @@ class PokemonTableViewController: UITableViewController, AddPokemonDelegate{
         
         URLSession.shared.dataTask(with: request) { (data, responce, error) in
             
-        }.resume()
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+        }
+            }.resume()
+        
+    }
+    
+    func addPokemonDidSave(name :String, imageURL :String, latitude :Double, longitude :Double) {
+        
+        self.postPokemon(name: name, imageURL: imageURL, latitude: latitude, longitude: longitude)
         
         self.tableView.reloadData()
-
-    
+        
     }
     
 
@@ -101,11 +101,20 @@ class PokemonTableViewController: UITableViewController, AddPokemonDelegate{
 
         DispatchQueue.global().async {
             
-                let imageData = NSData(contentsOf: URL(string: pokemon.imageURL)!)
+            guard let imageData = NSData(contentsOf: URL(string: pokemon.imageURL)!) else {
+                let imageData = NSData(contentsOf: URL(string: "http://i.imgur.com/nQUhWcS.jpg")!)
                 let imagePhoto = UIImage(data: imageData as! Data)
-                
+            
                 DispatchQueue.main.async {
                     cell.pokemonImageView?.image = imagePhoto
+                }
+                return
+            }
+            
+            let imagePhoto = UIImage(data: imageData as Data)
+            
+            DispatchQueue.main.async {
+                cell.pokemonImageView?.image = imagePhoto
             }
             
         }
