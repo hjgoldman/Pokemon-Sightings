@@ -50,16 +50,13 @@ class PokemonTableViewController: UITableViewController, AddPokemonDelegate{
         let postData = try! JSONSerialization.data(withJSONObject: postBody, options: [])
         request.httpBody = postData
         URLSession.shared.dataTask(with: request) { (data, responce, error) in
-            DispatchQueue.main.async {
-                self.tableView.reloadData()
-            }
             }.resume()
     }
     
     func addPokemonDidSave(name :String, imageURL :String, latitude :Double, longitude :Double) {
         
         self.postPokemon(name: name, imageURL: imageURL, latitude: latitude, longitude: longitude)
-        self.tableView.reloadData()
+        self.getPokemon()
     }
 
     //segue
