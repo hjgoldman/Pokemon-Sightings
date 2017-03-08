@@ -1,0 +1,6 @@
+framework module Pods_Pokemon_Sightings {
+  umbrella header "Pods-Pokemon Sightings-umbrella.h"
+
+  export *
+  module * { export * }
+}

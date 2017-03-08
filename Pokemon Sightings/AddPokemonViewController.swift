@@ -33,6 +33,15 @@ class AddPokemonViewController: UIViewController, UITextFieldDelegate {
     @IBAction func addButtonPressed() {
         
         let name = self.nameTextField?.text
+        
+        if (name?.characters.count == 0) {
+            let alertController = UIAlertController(title: "Whoops!", message:
+                "Add a name", preferredStyle: UIAlertControllerStyle.alert)
+            alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.default,handler: nil))
+            self.present(alertController, animated: true, completion: nil)
+            return
+        }
+        
         let imageURL = self.imageURLTextField?.text
         
         
@@ -44,6 +53,7 @@ class AddPokemonViewController: UIViewController, UITextFieldDelegate {
             return
             
         }
+        
         guard let latitude = Double((self.latitudeTextField?.text!)!) else {
             let alertController = UIAlertController(title: "Whoops!", message:
                 "Not a valid latitude/longitude value", preferredStyle: UIAlertControllerStyle.alert)
@@ -51,6 +61,7 @@ class AddPokemonViewController: UIViewController, UITextFieldDelegate {
             self.present(alertController, animated: true, completion: nil)
             return
         }
+        
         guard let longitude = Double((self.longitudeTextField?.text!)!) else {
             let alertController = UIAlertController(title: "Whoops!", message:
                 "Not a valid latitude/longitude value", preferredStyle: UIAlertControllerStyle.alert)
@@ -65,8 +76,6 @@ class AddPokemonViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func cancelButtonPressed() {
-        
-        
         self.dismiss(animated: true, completion: nil)
     }
     
