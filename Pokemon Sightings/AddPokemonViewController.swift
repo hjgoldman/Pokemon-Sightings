@@ -44,7 +44,6 @@ class AddPokemonViewController: UIViewController, UITextFieldDelegate {
         
         let imageURL = self.imageURLTextField?.text
         
-        
         if (imageURL?.characters.count)! < 10 {
             let alertController = UIAlertController(title: "Whoops!", message:
                 "Not a valid URL", preferredStyle: UIAlertControllerStyle.alert)

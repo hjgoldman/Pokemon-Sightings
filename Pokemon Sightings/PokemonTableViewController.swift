@@ -61,8 +61,11 @@ class PokemonTableViewController: UITableViewController, AddPokemonDelegate{
 
     //segue
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let addPokemonVC :AddPokemonViewController = segue.destination as! AddPokemonViewController
-        addPokemonVC.delegate = self
+        
+        if segue.identifier == "AddPokemon" {
+            let addPokemonVC :AddPokemonViewController = segue.destination as! AddPokemonViewController
+            addPokemonVC.delegate = self
+        }
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {

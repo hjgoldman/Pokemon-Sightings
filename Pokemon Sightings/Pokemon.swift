@@ -24,4 +24,7 @@ class Pokemon {
         self.name = dictionary["name"] as! String
         
     }
+
 }
+
+

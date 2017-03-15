@@ -7,5 +7,7 @@ target 'Pokemon Sightings' do
 
   # Pods for Pokemon Sightings
 pod 'Kingfisher', '~> 3.0'
+pod 'HDAugmentedReality', :git => 'https://github.com/DanijelHuis/HDAugmentedReality.git'
+
 
 end

@@ -7,38 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E9CC28AC8E34FE8E1C87E933E04BC7A /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449745419F19FD32556B5DB4C4713E19 /* ImageProcessor.swift */; };
-		179523942E7D1E3EB210EF05E2C7AE79 /* Kingfisher.h in Headers */ = {isa = PBXBuildFile; fileRef = 814A249890448FEA6045B315BCF3CBDD /* Kingfisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E5E570FFC49EF98550401421A243C0F /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB06CA9125048730F6F8EDD92103BD0 /* CacheSerializer.swift */; };
-		33395912F2FFA355C4C36B7EDEAA3DA7 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EACA73146F2EFD5728BDDE27435FBD5 /* ImageView+Kingfisher.swift */; };
-		33A14E817C0FA585D5DA3A55E453299D /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC672E8EA725C5D07B841DD0564BE8A /* Image.swift */; };
-		3414E1D9CB15149A296E16C45967B021 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A095EF160FF9234364CDD94B8926E24A /* ImagePrefetcher.swift */; };
-		342AE33215135AD56B73580012DC22AB /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F4491E340CD8AFA20CA333A7248C0A /* AnimatedImageView.swift */; };
-		378B44CAA91C2106076668FDE72E1E02 /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F836E9F331D1DFAA871B794EC40647 /* KingfisherOptionsInfo.swift */; };
-		4089E39F76F86466B8DDD39A1C1ABB6B /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59DB5A84662EBAFEC776E1D05FC2A56 /* Filter.swift */; };
-		52A280AB4852FDE92DF09B5E79D5C2AA /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE39F8F9D08B99E2AC56305CB28004D2 /* Indicator.swift */; };
-		6A375593407BC7937234B2B6A0811760 /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9856B231053FF41FC9B14ACCC6F9215C /* Kingfisher-dummy.m */; };
-		6CD63E1564618B6213B98E0ABBC3127C /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D06CAA9AFC94CB86E9CB96D78BD0923 /* ThreadHelper.swift */; };
-		6DA770087D354CDCD3889CDAE7C4C698 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE6AD548C8531F1E89A4AC6B1C6B3A8 /* Box.swift */; };
-		7636F846675C9F4ED96E00C6C19A4890 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB1ACC8AAF2B55915F99167EE149FA6 /* KingfisherManager.swift */; };
-		86B7DA678C8705523C300947117C0706 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1EE6FB137B9949B921A201014D9660 /* ImageTransition.swift */; };
-		8DA7E6883118CB3C8132B64D3D43AE0B /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCAABA051F2B62FEC94F6629032960D /* Resource.swift */; };
-		8DAFE7E824BB223F2F079E0634DE6295 /* Pods-Pokemon Sightings-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C13B3E70D687E9D7E6BFFAD7735F6915 /* Pods-Pokemon Sightings-dummy.m */; };
+		0E9CC28AC8E34FE8E1C87E933E04BC7A /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E51DA6D1C8159D26D4473FEB2A56F6 /* ImageProcessor.swift */; };
+		179523942E7D1E3EB210EF05E2C7AE79 /* Kingfisher.h in Headers */ = {isa = PBXBuildFile; fileRef = D9D723D87E74CD4264C104358F1973DD /* Kingfisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E5E570FFC49EF98550401421A243C0F /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A40F0A0A91D8234CD2A6C69224EAAD /* CacheSerializer.swift */; };
+		33395912F2FFA355C4C36B7EDEAA3DA7 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA85FDB273576302DE003E2C4EA6DEF3 /* ImageView+Kingfisher.swift */; };
+		33A14E817C0FA585D5DA3A55E453299D /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FB134C773A1DAD1897236ACDCBB3D6 /* Image.swift */; };
+		3414E1D9CB15149A296E16C45967B021 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDE0B7612E75847DB96F6446588CE73 /* ImagePrefetcher.swift */; };
+		342AE33215135AD56B73580012DC22AB /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531A87BAF16525D08F185DE5EC9DE02B /* AnimatedImageView.swift */; };
+		378B44CAA91C2106076668FDE72E1E02 /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87B4AD171027471775C0935826428A0 /* KingfisherOptionsInfo.swift */; };
+		397147C2008F4EDE8D074927CBB86A1F /* DebugMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0676BD967C79EA8D37E060B31CDF4F /* DebugMapViewController.xib */; };
+		4089E39F76F86466B8DDD39A1C1ABB6B /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F22C4E3242B562A52DD274397AA7A5 /* Filter.swift */; };
+		4AB8D880D57623A8DC2AC6E2C19E3636 /* ARTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6AD0B772CBB5D1E277ED3ABBF42C64 /* ARTrackingManager.swift */; };
+		4EBD55C87543277002EF7C1F4BBD113B /* hdar_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0321A4534FEE4748C77F50A892E7878D /* hdar_close@2x.png */; };
+		52A280AB4852FDE92DF09B5E79D5C2AA /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D877CD9C4E6A6A0C2A357A7B0DA2F2A0 /* Indicator.swift */; };
+		56E609FE1C6566B84BB50AAC3A572606 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF601DA064140DD93256A186D10D24EF /* ARViewController.swift */; };
+		6698CF35A9AC125E3F8F9CDD2DFFC1F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C074C11AE6A5B57D6F593C07D4511E4 /* Foundation.framework */; };
+		6A375593407BC7937234B2B6A0811760 /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 071D469EC8023F15EDE973411CCCA8AC /* Kingfisher-dummy.m */; };
+		6CD63E1564618B6213B98E0ABBC3127C /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD44AF57562766118E55B5ED2CFBA73F /* ThreadHelper.swift */; };
+		6DA770087D354CDCD3889CDAE7C4C698 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639F4AC1506C7BF3C6C4F86212C8C2DE /* Box.swift */; };
+		7636F846675C9F4ED96E00C6C19A4890 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630056479F32B3BB588723FBB667851C /* KingfisherManager.swift */; };
+		86B7DA678C8705523C300947117C0706 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6804490E0C0CF5EE2E8D2F0FA33D9DC4 /* ImageTransition.swift */; };
+		8DA7E6883118CB3C8132B64D3D43AE0B /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C86F1E2E9A4E47DE1536137F4E3D417 /* Resource.swift */; };
+		90D8CB1B64E158A229801EC0AFC57817 /* HDAugmentedReality-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E45F787D26B391E7A12B2CA79AE0632 /* HDAugmentedReality-dummy.m */; };
 		92136C6584624998D5005F46C70A628B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA5794656CD6EAD5432F6E93991FC63 /* CFNetwork.framework */; };
-		950048036F39AB07443A5CF9B27DFDFD /* Pods-Pokemon Sightings-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA0BDFFC699780BEA5B00BD538B2985A /* Pods-Pokemon Sightings-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C99E45B90BD95712D9878994BFC8B88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C074C11AE6A5B57D6F593C07D4511E4 /* Foundation.framework */; };
-		9F826F893E86EB86591B637A1CE4B13A /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD3C40826560CCA979FBF1A30879C5D /* String+MD5.swift */; };
-		A8F35D1EBAEF99D38F02A0B8CA5D8FBE /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A24D7C6D5AC7A569D95092B9FA066ABA /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9CC5ED97D29C6C3DE22B78A9AA2AD91 /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6211E96F580D34F3E3F84D65BD80EC24 /* Kingfisher.swift */; };
-		DB545ABE7867E1F2A9D778F2A8B44B1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C074C11AE6A5B57D6F593C07D4511E4 /* Foundation.framework */; };
-		DC6080C64C269628C3F5107BE87055E2 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE4AC69094EC3015FFF1BF0AD4AFE7 /* ImageDownloader.swift */; };
-		EA816A580C3858934ED6FE92040C26DD /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799CA99214B1F57CE947563E43D6E995 /* RequestModifier.swift */; };
-		EE89512E8D36E67CDC525DB9D5BBF5A7 /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4022814E31F041CA8E6FFA328C8639 /* UIButton+Kingfisher.swift */; };
-		F8E957950566622A3E4B61AACE8F0B4A /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C72AFC42CED429C7A71F7A7704D20C /* ImageCache.swift */; };
+		9F826F893E86EB86591B637A1CE4B13A /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2B3FFCF371FED6B63BF0439FE8D7B6 /* String+MD5.swift */; };
+		A8F35D1EBAEF99D38F02A0B8CA5D8FBE /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E371DDA5DC1E58C2434AE93A27B5019 /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B091364B69682AB6ECDA0B1E8C1947C4 /* ARAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4567EFB097E7ECE6F8CB01F0910C07B /* ARAnnotation.swift */; };
+		B1A92B8B33ABEF2B3571912BE0119832 /* Pods-Pokemon Sightings-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C13B3E70D687E9D7E6BFFAD7735F6915 /* Pods-Pokemon Sightings-dummy.m */; };
+		BE21156D9B423F24A7B2D9469D49A81C /* hdar_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0568843A9B90E69FCA25E4595C6433DC /* hdar_close@3x.png */; };
+		C43CC0CC456A894165EADF8E42DF391D /* hdar_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 57FD507896A705600966FDBB7345DCEB /* hdar_close.png */; };
+		C9CC5ED97D29C6C3DE22B78A9AA2AD91 /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9287E281500956C89FAD6BFBACFD89F7 /* Kingfisher.swift */; };
+		CB5EC940D5386EF6ECA64CFFA58F1A4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C074C11AE6A5B57D6F593C07D4511E4 /* Foundation.framework */; };
+		CF452E3F74A5528F6A3F0762D7FE9E6F /* Pods-Pokemon Sightings-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA0BDFFC699780BEA5B00BD538B2985A /* Pods-Pokemon Sightings-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D29C03794949D751EDAC3966497F2E10 /* HDAugmentedReality-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30D800390D31111567C04D6745CFAEA2 /* HDAugmentedReality-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D78CB76184CF64FC9CD2A6293446B264 /* ARConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A900B5E24E77EC680B14D4554D5B3EA4 /* ARConfiguration.swift */; };
+		DC6080C64C269628C3F5107BE87055E2 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F74C0157CB9CEA9869951A35A4544C /* ImageDownloader.swift */; };
+		E96272FDD75DA8E90047202E112C2906 /* ARAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBE7F39E5F77331A7F8A2BE04D3B658 /* ARAnnotationView.swift */; };
+		EA816A580C3858934ED6FE92040C26DD /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2FE91BEDAD4A14664D49AFFFE39991 /* RequestModifier.swift */; };
+		EE89512E8D36E67CDC525DB9D5BBF5A7 /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B931EAA57F6898EC2D5B3846BEBEEEC9 /* UIButton+Kingfisher.swift */; };
+		EF301DE1FF4EFC33D92C4041652E931E /* DebugMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ABAFA47970A6190E74FA271CBBA737 /* DebugMapViewController.swift */; };
+		F8E957950566622A3E4B61AACE8F0B4A /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CC09449F6564DE48AC7B893329C65B /* ImageCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A048B2B8EB7260057EC2108B2E0C1173 /* PBXContainerItemProxy */ = {
+		77A8EF2956475C857E46D73CF36007A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25BA7D597CBBC52E7F72BEBFD1493CC3;
+			remoteInfo = HDAugmentedReality;
+		};
+		927DA68A628FB3897B34843B47A3000A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -49,55 +69,80 @@
 
 /* Begin PBXFileReference section */
 		0069C8896CF0F0D42AE3452CD66D2171 /* Pods-Pokemon Sightings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pokemon Sightings.debug.xcconfig"; sourceTree = "<group>"; };
-		0CCAABA051F2B62FEC94F6629032960D /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/Resource.swift; sourceTree = "<group>"; };
-		0EACA73146F2EFD5728BDDE27435FBD5 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
+		0321A4534FEE4748C77F50A892E7878D /* hdar_close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "hdar_close@2x.png"; path = "HDAugmentedReality/Resources/hdar_close@2x.png"; sourceTree = "<group>"; };
+		0568843A9B90E69FCA25E4595C6433DC /* hdar_close@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "hdar_close@3x.png"; path = "HDAugmentedReality/Resources/hdar_close@3x.png"; sourceTree = "<group>"; };
+		071D469EC8023F15EDE973411CCCA8AC /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
+		0C86F1E2E9A4E47DE1536137F4E3D417 /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/Resource.swift; sourceTree = "<group>"; };
+		0E45F787D26B391E7A12B2CA79AE0632 /* HDAugmentedReality-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HDAugmentedReality-dummy.m"; sourceTree = "<group>"; };
+		0EC8B91AC1B6AB45D4D9979F319A8A64 /* Pods_Pokemon_Sightings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Pokemon_Sightings.framework; path = "Pods-Pokemon Sightings.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		109B24984FF1B1D540245C976C8D89DC /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
+		10AABEBB275AA48CA7F03FD1BA1AD5AE /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A7920BE3789D4BA7EDEB80C903D89B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F2FE91BEDAD4A14664D49AFFFE39991 /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/RequestModifier.swift; sourceTree = "<group>"; };
+		2E371DDA5DC1E58C2434AE93A27B5019 /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
 		2FBE4DEC9270DB245518AF3E24F5E600 /* Pods-Pokemon Sightings-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pokemon Sightings-resources.sh"; sourceTree = "<group>"; };
+		30D800390D31111567C04D6745CFAEA2 /* HDAugmentedReality-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDAugmentedReality-umbrella.h"; sourceTree = "<group>"; };
 		32DF48000B53013751E33635E2A452D0 /* Pods-Pokemon Sightings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pokemon Sightings.release.xcconfig"; sourceTree = "<group>"; };
-		40F4491E340CD8AFA20CA333A7248C0A /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/AnimatedImageView.swift; sourceTree = "<group>"; };
-		449745419F19FD32556B5DB4C4713E19 /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/ImageProcessor.swift; sourceTree = "<group>"; };
-		5207B9BA1FAC60A316B91128301138B6 /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Kingfisher.modulemap; sourceTree = "<group>"; };
+		38927E5061C45BA2C606E4FF37FC854E /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Kingfisher.modulemap; sourceTree = "<group>"; };
+		39A40F0A0A91D8234CD2A6C69224EAAD /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/CacheSerializer.swift; sourceTree = "<group>"; };
+		39FB134C773A1DAD1897236ACDCBB3D6 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image.swift; sourceTree = "<group>"; };
+		3FBE7F39E5F77331A7F8A2BE04D3B658 /* ARAnnotationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARAnnotationView.swift; path = HDAugmentedReality/Classes/ARAnnotationView.swift; sourceTree = "<group>"; };
+		43E51DA6D1C8159D26D4473FEB2A56F6 /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/ImageProcessor.swift; sourceTree = "<group>"; };
+		531A87BAF16525D08F185DE5EC9DE02B /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/AnimatedImageView.swift; sourceTree = "<group>"; };
+		57FD507896A705600966FDBB7345DCEB /* hdar_close.png */ = {isa = PBXFileReference; includeInIndex = 1; name = hdar_close.png; path = HDAugmentedReality/Resources/hdar_close.png; sourceTree = "<group>"; };
 		5C074C11AE6A5B57D6F593C07D4511E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5D06CAA9AFC94CB86E9CB96D78BD0923 /* ThreadHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadHelper.swift; path = Sources/ThreadHelper.swift; sourceTree = "<group>"; };
-		6211E96F580D34F3E3F84D65BD80EC24 /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/Kingfisher.swift; sourceTree = "<group>"; };
+		61F22C4E3242B562A52DD274397AA7A5 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
+		630056479F32B3BB588723FBB667851C /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/KingfisherManager.swift; sourceTree = "<group>"; };
+		639F4AC1506C7BF3C6C4F86212C8C2DE /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
+		6804490E0C0CF5EE2E8D2F0FA33D9DC4 /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/ImageTransition.swift; sourceTree = "<group>"; };
 		6B556FDA57B3DA5193015F2DE2E82964 /* Pods-Pokemon Sightings-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pokemon Sightings-acknowledgements.markdown"; sourceTree = "<group>"; };
-		799CA99214B1F57CE947563E43D6E995 /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/RequestModifier.swift; sourceTree = "<group>"; };
-		814A249890448FEA6045B315BCF3CBDD /* Kingfisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kingfisher.h; path = Sources/Kingfisher.h; sourceTree = "<group>"; };
+		9287E281500956C89FAD6BFBACFD89F7 /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/Kingfisher.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94DE4AC69094EC3015FFF1BF0AD4AFE7 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/ImageDownloader.swift; sourceTree = "<group>"; };
-		968C4EE1CB49CA730B177A530E6BC12F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9856B231053FF41FC9B14ACCC6F9215C /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
+		94CC09449F6564DE48AC7B893329C65B /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/ImageCache.swift; sourceTree = "<group>"; };
+		99CC3BE49B7166F9D6F4BBD99A7C15F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A6AD0B772CBB5D1E277ED3ABBF42C64 /* ARTrackingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARTrackingManager.swift; path = HDAugmentedReality/Classes/ARTrackingManager.swift; sourceTree = "<group>"; };
+		9C2B3FFCF371FED6B63BF0439FE8D7B6 /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/String+MD5.swift"; sourceTree = "<group>"; };
 		9DAF18751E327F12E5EA873913C223C2 /* Pods-Pokemon Sightings.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Pokemon Sightings.modulemap"; sourceTree = "<group>"; };
-		9DE6AD548C8531F1E89A4AC6B1C6B3A8 /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
-		9E4022814E31F041CA8E6FFA328C8639 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
-		9EC672E8EA725C5D07B841DD0564BE8A /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image.swift; sourceTree = "<group>"; };
-		A095EF160FF9234364CDD94B8926E24A /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/ImagePrefetcher.swift; sourceTree = "<group>"; };
-		A24D7C6D5AC7A569D95092B9FA066ABA /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
-		A59DB5A84662EBAFEC776E1D05FC2A56 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
-		AA1EE6FB137B9949B921A201014D9660 /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/ImageTransition.swift; sourceTree = "<group>"; };
-		AFD3C40826560CCA979FBF1A30879C5D /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/String+MD5.swift"; sourceTree = "<group>"; };
-		BC79E2E5D62D71F36463838727DAA58D /* Kingfisher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.xcconfig; sourceTree = "<group>"; };
-		BD570DDF242D1CD3CDDAFC3741B3A624 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DDE0B7612E75847DB96F6446588CE73 /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/ImagePrefetcher.swift; sourceTree = "<group>"; };
+		A900B5E24E77EC680B14D4554D5B3EA4 /* ARConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARConfiguration.swift; path = HDAugmentedReality/Classes/ARConfiguration.swift; sourceTree = "<group>"; };
+		AAA3C9721B38F969F2C0AC3E34BF1AE6 /* HDAugmentedReality.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HDAugmentedReality.modulemap; sourceTree = "<group>"; };
+		B931EAA57F6898EC2D5B3846BEBEEEC9 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
 		C13B3E70D687E9D7E6BFFAD7735F6915 /* Pods-Pokemon Sightings-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pokemon Sightings-dummy.m"; sourceTree = "<group>"; };
+		C4567EFB097E7ECE6F8CB01F0910C07B /* ARAnnotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARAnnotation.swift; path = HDAugmentedReality/Classes/ARAnnotation.swift; sourceTree = "<group>"; };
 		CA0BDFFC699780BEA5B00BD538B2985A /* Pods-Pokemon Sightings-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pokemon Sightings-umbrella.h"; sourceTree = "<group>"; };
-		CDB06CA9125048730F6F8EDD92103BD0 /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/CacheSerializer.swift; sourceTree = "<group>"; };
+		CF601DA064140DD93256A186D10D24EF /* ARViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARViewController.swift; path = HDAugmentedReality/Classes/ARViewController.swift; sourceTree = "<group>"; };
+		D0E402A4E51AF7A380894A63C44DE086 /* HDAugmentedReality-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HDAugmentedReality-prefix.pch"; sourceTree = "<group>"; };
 		D15D19F99D36B48F971877195ECD894B /* Pods-Pokemon Sightings-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pokemon Sightings-frameworks.sh"; sourceTree = "<group>"; };
-		D7A3C90E9DF742791B93F3793008064F /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
+		D1983B2829CADC5443D42A57B707D88A /* Kingfisher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.xcconfig; sourceTree = "<group>"; };
+		D3ABAFA47970A6190E74FA271CBBA737 /* DebugMapViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DebugMapViewController.swift; path = HDAugmentedReality/Classes/Debug/DebugMapViewController.swift; sourceTree = "<group>"; };
+		D3C844B3E558849C1ADC8FC98B920CEC /* HDAugmentedReality.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HDAugmentedReality.framework; path = HDAugmentedReality.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D877CD9C4E6A6A0C2A357A7B0DA2F2A0 /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Indicator.swift; sourceTree = "<group>"; };
+		D9D723D87E74CD4264C104358F1973DD /* Kingfisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kingfisher.h; path = Sources/Kingfisher.h; sourceTree = "<group>"; };
 		DBA5794656CD6EAD5432F6E93991FC63 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		DE06771CD75AF86AC03E809F652FF82D /* Pods_Pokemon_Sightings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Pokemon_Sightings.framework; path = "Pods-Pokemon Sightings.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE39F8F9D08B99E2AC56305CB28004D2 /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Indicator.swift; sourceTree = "<group>"; };
-		E7F836E9F331D1DFAA871B794EC40647 /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
-		F0C72AFC42CED429C7A71F7A7704D20C /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/ImageCache.swift; sourceTree = "<group>"; };
-		FBB1ACC8AAF2B55915F99167EE149FA6 /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/KingfisherManager.swift; sourceTree = "<group>"; };
+		DC6224065B89B0FB5CA2C32396181A2B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD511033B74678BA64272AE6C85A8879 /* HDAugmentedReality.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HDAugmentedReality.xcconfig; sourceTree = "<group>"; };
+		E7F74C0157CB9CEA9869951A35A4544C /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/ImageDownloader.swift; sourceTree = "<group>"; };
+		EA85FDB273576302DE003E2C4EA6DEF3 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
+		F87B4AD171027471775C0935826428A0 /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
+		FA0676BD967C79EA8D37E060B31CDF4F /* DebugMapViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DebugMapViewController.xib; path = HDAugmentedReality/Resources/DebugMapViewController.xib; sourceTree = "<group>"; };
+		FD44AF57562766118E55B5ED2CFBA73F /* ThreadHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadHelper.swift; path = Sources/ThreadHelper.swift; sourceTree = "<group>"; };
 		FF6E5A9396E531500C6E4DEDDBF7917B /* Pods-Pokemon Sightings-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pokemon Sightings-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5347BAAFE97DA2E0B56C93EF883A11E7 /* Frameworks */ = {
+		48DA0C1A143D89AD795C7D599B3C6F11 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB545ABE7867E1F2A9D778F2A8B44B1A /* Foundation.framework in Frameworks */,
+				CB5EC940D5386EF6ECA64CFFA58F1A4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE51CB18A0C81613F9784B96E72639B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6698CF35A9AC125E3F8F9CDD2DFFC1F6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +158,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02F54C2BCEB7ABA72D4980A85B5D413E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAA3C9721B38F969F2C0AC3E34BF1AE6 /* HDAugmentedReality.modulemap */,
+				DD511033B74678BA64272AE6C85A8879 /* HDAugmentedReality.xcconfig */,
+				0E45F787D26B391E7A12B2CA79AE0632 /* HDAugmentedReality-dummy.m */,
+				D0E402A4E51AF7A380894A63C44DE086 /* HDAugmentedReality-prefix.pch */,
+				30D800390D31111567C04D6745CFAEA2 /* HDAugmentedReality-umbrella.h */,
+				DC6224065B89B0FB5CA2C32396181A2B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HDAugmentedReality";
+			sourceTree = "<group>";
+		};
 		07B963F066CF1C907024B787F3D5186F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,20 +181,51 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		286D6B6396CDDAA27535AF59400D1618 /* Kingfisher */ = {
+			isa = PBXGroup;
+			children = (
+				531A87BAF16525D08F185DE5EC9DE02B /* AnimatedImageView.swift */,
+				639F4AC1506C7BF3C6C4F86212C8C2DE /* Box.swift */,
+				39A40F0A0A91D8234CD2A6C69224EAAD /* CacheSerializer.swift */,
+				61F22C4E3242B562A52DD274397AA7A5 /* Filter.swift */,
+				39FB134C773A1DAD1897236ACDCBB3D6 /* Image.swift */,
+				94CC09449F6564DE48AC7B893329C65B /* ImageCache.swift */,
+				E7F74C0157CB9CEA9869951A35A4544C /* ImageDownloader.swift */,
+				9DDE0B7612E75847DB96F6446588CE73 /* ImagePrefetcher.swift */,
+				43E51DA6D1C8159D26D4473FEB2A56F6 /* ImageProcessor.swift */,
+				6804490E0C0CF5EE2E8D2F0FA33D9DC4 /* ImageTransition.swift */,
+				EA85FDB273576302DE003E2C4EA6DEF3 /* ImageView+Kingfisher.swift */,
+				D877CD9C4E6A6A0C2A357A7B0DA2F2A0 /* Indicator.swift */,
+				D9D723D87E74CD4264C104358F1973DD /* Kingfisher.h */,
+				9287E281500956C89FAD6BFBACFD89F7 /* Kingfisher.swift */,
+				630056479F32B3BB588723FBB667851C /* KingfisherManager.swift */,
+				F87B4AD171027471775C0935826428A0 /* KingfisherOptionsInfo.swift */,
+				1F2FE91BEDAD4A14664D49AFFFE39991 /* RequestModifier.swift */,
+				0C86F1E2E9A4E47DE1536137F4E3D417 /* Resource.swift */,
+				9C2B3FFCF371FED6B63BF0439FE8D7B6 /* String+MD5.swift */,
+				FD44AF57562766118E55B5ED2CFBA73F /* ThreadHelper.swift */,
+				B931EAA57F6898EC2D5B3846BEBEEEC9 /* UIButton+Kingfisher.swift */,
+				8A6173FE311FB7DE13882BA960A579FF /* Support Files */,
+			);
+			name = Kingfisher;
+			path = Kingfisher;
+			sourceTree = "<group>";
+		};
+		36ABE2C32FC09C6AF9DD15B45CC8E109 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5CD3F7B5D673BCC78A0ED4633DD0BA9 /* HDAugmentedReality */,
+				286D6B6396CDDAA27535AF59400D1618 /* Kingfisher */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				07B963F066CF1C907024B787F3D5186F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6D6A3E96995405C682083EAC9705D118 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BC43CE0E4B9A087C6F738A912A8078EB /* Kingfisher */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		757B00F3A3A14E1C6CA898F420E5D581 /* Pods-Pokemon Sightings */ = {
@@ -161,8 +251,8 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				6D6A3E96995405C682083EAC9705D118 /* Pods */,
-				D24A553CF6796D464FEB2C312214C588 /* Products */,
+				36ABE2C32FC09C6AF9DD15B45CC8E109 /* Pods */,
+				8F63869308C108EE241DF43C0528EEF4 /* Products */,
 				8031288756838F7CBC22B867D0B02CC0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -175,57 +265,55 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC43CE0E4B9A087C6F738A912A8078EB /* Kingfisher */ = {
+		8A6173FE311FB7DE13882BA960A579FF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				40F4491E340CD8AFA20CA333A7248C0A /* AnimatedImageView.swift */,
-				9DE6AD548C8531F1E89A4AC6B1C6B3A8 /* Box.swift */,
-				CDB06CA9125048730F6F8EDD92103BD0 /* CacheSerializer.swift */,
-				A59DB5A84662EBAFEC776E1D05FC2A56 /* Filter.swift */,
-				9EC672E8EA725C5D07B841DD0564BE8A /* Image.swift */,
-				F0C72AFC42CED429C7A71F7A7704D20C /* ImageCache.swift */,
-				94DE4AC69094EC3015FFF1BF0AD4AFE7 /* ImageDownloader.swift */,
-				A095EF160FF9234364CDD94B8926E24A /* ImagePrefetcher.swift */,
-				449745419F19FD32556B5DB4C4713E19 /* ImageProcessor.swift */,
-				AA1EE6FB137B9949B921A201014D9660 /* ImageTransition.swift */,
-				0EACA73146F2EFD5728BDDE27435FBD5 /* ImageView+Kingfisher.swift */,
-				DE39F8F9D08B99E2AC56305CB28004D2 /* Indicator.swift */,
-				814A249890448FEA6045B315BCF3CBDD /* Kingfisher.h */,
-				6211E96F580D34F3E3F84D65BD80EC24 /* Kingfisher.swift */,
-				FBB1ACC8AAF2B55915F99167EE149FA6 /* KingfisherManager.swift */,
-				E7F836E9F331D1DFAA871B794EC40647 /* KingfisherOptionsInfo.swift */,
-				799CA99214B1F57CE947563E43D6E995 /* RequestModifier.swift */,
-				0CCAABA051F2B62FEC94F6629032960D /* Resource.swift */,
-				AFD3C40826560CCA979FBF1A30879C5D /* String+MD5.swift */,
-				5D06CAA9AFC94CB86E9CB96D78BD0923 /* ThreadHelper.swift */,
-				9E4022814E31F041CA8E6FFA328C8639 /* UIButton+Kingfisher.swift */,
-				DF56DAAF6901EA25B7722FFAC391B276 /* Support Files */,
+				99CC3BE49B7166F9D6F4BBD99A7C15F7 /* Info.plist */,
+				38927E5061C45BA2C606E4FF37FC854E /* Kingfisher.modulemap */,
+				D1983B2829CADC5443D42A57B707D88A /* Kingfisher.xcconfig */,
+				071D469EC8023F15EDE973411CCCA8AC /* Kingfisher-dummy.m */,
+				109B24984FF1B1D540245C976C8D89DC /* Kingfisher-prefix.pch */,
+				2E371DDA5DC1E58C2434AE93A27B5019 /* Kingfisher-umbrella.h */,
 			);
-			name = Kingfisher;
-			path = Kingfisher;
+			name = "Support Files";
+			path = "../Target Support Files/Kingfisher";
 			sourceTree = "<group>";
 		};
-		D24A553CF6796D464FEB2C312214C588 /* Products */ = {
+		8F63869308C108EE241DF43C0528EEF4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BD570DDF242D1CD3CDDAFC3741B3A624 /* Kingfisher.framework */,
-				DE06771CD75AF86AC03E809F652FF82D /* Pods_Pokemon_Sightings.framework */,
+				D3C844B3E558849C1ADC8FC98B920CEC /* HDAugmentedReality.framework */,
+				10AABEBB275AA48CA7F03FD1BA1AD5AE /* Kingfisher.framework */,
+				0EC8B91AC1B6AB45D4D9979F319A8A64 /* Pods_Pokemon_Sightings.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DF56DAAF6901EA25B7722FFAC391B276 /* Support Files */ = {
+		960BC60B8133062A0B02146B6AC445A8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				968C4EE1CB49CA730B177A530E6BC12F /* Info.plist */,
-				5207B9BA1FAC60A316B91128301138B6 /* Kingfisher.modulemap */,
-				BC79E2E5D62D71F36463838727DAA58D /* Kingfisher.xcconfig */,
-				9856B231053FF41FC9B14ACCC6F9215C /* Kingfisher-dummy.m */,
-				D7A3C90E9DF742791B93F3793008064F /* Kingfisher-prefix.pch */,
-				A24D7C6D5AC7A569D95092B9FA066ABA /* Kingfisher-umbrella.h */,
+				FA0676BD967C79EA8D37E060B31CDF4F /* DebugMapViewController.xib */,
+				57FD507896A705600966FDBB7345DCEB /* hdar_close.png */,
+				0321A4534FEE4748C77F50A892E7878D /* hdar_close@2x.png */,
+				0568843A9B90E69FCA25E4595C6433DC /* hdar_close@3x.png */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Kingfisher";
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B5CD3F7B5D673BCC78A0ED4633DD0BA9 /* HDAugmentedReality */ = {
+			isa = PBXGroup;
+			children = (
+				C4567EFB097E7ECE6F8CB01F0910C07B /* ARAnnotation.swift */,
+				3FBE7F39E5F77331A7F8A2BE04D3B658 /* ARAnnotationView.swift */,
+				A900B5E24E77EC680B14D4554D5B3EA4 /* ARConfiguration.swift */,
+				9A6AD0B772CBB5D1E277ED3ABBF42C64 /* ARTrackingManager.swift */,
+				CF601DA064140DD93256A186D10D24EF /* ARViewController.swift */,
+				D3ABAFA47970A6190E74FA271CBBA737 /* DebugMapViewController.swift */,
+				960BC60B8133062A0B02146B6AC445A8 /* Resources */,
+				02F54C2BCEB7ABA72D4980A85B5D413E /* Support Files */,
+			);
+			name = HDAugmentedReality;
+			path = HDAugmentedReality;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,33 +328,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4720988DBF9CFE853D1688710C650674 /* Headers */ = {
+		43D02A2FBEDCB6B90B63DA69C9437DC6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				950048036F39AB07443A5CF9B27DFDFD /* Pods-Pokemon Sightings-umbrella.h in Headers */,
+				CF452E3F74A5528F6A3F0762D7FE9E6F /* Pods-Pokemon Sightings-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C1F1D403B95B0A922F3EAB477F01C10 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29C03794949D751EDAC3966497F2E10 /* HDAugmentedReality-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		94F11BE1553108592EF8D4652AEE6FEB /* Pods-Pokemon Sightings */ = {
+		25BA7D597CBBC52E7F72BEBFD1493CC3 /* HDAugmentedReality */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D67CB7256A34850079647C1342799C1 /* Build configuration list for PBXNativeTarget "Pods-Pokemon Sightings" */;
+			buildConfigurationList = 6474C3044EEE1E766E0B9A45C82056D7 /* Build configuration list for PBXNativeTarget "HDAugmentedReality" */;
 			buildPhases = (
-				864879A3AF1C323DD4D69B99EACB288E /* Sources */,
-				5347BAAFE97DA2E0B56C93EF883A11E7 /* Frameworks */,
-				4720988DBF9CFE853D1688710C650674 /* Headers */,
+				0D666F54302A32489CEE76AD12A8FD75 /* Sources */,
+				CE51CB18A0C81613F9784B96E72639B1 /* Frameworks */,
+				378D92F78B74089F8171AF3AD9FF5CF6 /* Resources */,
+				8C1F1D403B95B0A922F3EAB477F01C10 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F8A2481134E4D1DDD16D76DD5F3D42BB /* PBXTargetDependency */,
+			);
+			name = HDAugmentedReality;
+			productName = HDAugmentedReality;
+			productReference = D3C844B3E558849C1ADC8FC98B920CEC /* HDAugmentedReality.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		78C1C778D200C9C765804C6245B7F093 /* Pods-Pokemon Sightings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A821470E7093F65B8F5DCCB0C0FE70B /* Build configuration list for PBXNativeTarget "Pods-Pokemon Sightings" */;
+			buildPhases = (
+				A0C2D6D0C6DDD52D5C8C3D518FAD9AB4 /* Sources */,
+				48DA0C1A143D89AD795C7D599B3C6F11 /* Frameworks */,
+				43D02A2FBEDCB6B90B63DA69C9437DC6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50FE85C369A371BC8A80E6F04FBDE128 /* PBXTargetDependency */,
+				30426F1964CDA3EFDD294ED9CD81613F /* PBXTargetDependency */,
 			);
 			name = "Pods-Pokemon Sightings";
 			productName = "Pods-Pokemon Sightings";
-			productReference = DE06771CD75AF86AC03E809F652FF82D /* Pods_Pokemon_Sightings.framework */;
+			productReference = 0EC8B91AC1B6AB45D4D9979F319A8A64 /* Pods_Pokemon_Sightings.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C4944FEC314D1A66588651D006273ADE /* Kingfisher */ = {
@@ -283,7 +398,7 @@
 			);
 			name = Kingfisher;
 			productName = Kingfisher;
-			productReference = BD570DDF242D1CD3CDDAFC3741B3A624 /* Kingfisher.framework */;
+			productReference = 10AABEBB275AA48CA7F03FD1BA1AD5AE /* Kingfisher.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -303,22 +418,51 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D24A553CF6796D464FEB2C312214C588 /* Products */;
+			productRefGroup = 8F63869308C108EE241DF43C0528EEF4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				25BA7D597CBBC52E7F72BEBFD1493CC3 /* HDAugmentedReality */,
 				C4944FEC314D1A66588651D006273ADE /* Kingfisher */,
-				94F11BE1553108592EF8D4652AEE6FEB /* Pods-Pokemon Sightings */,
+				78C1C778D200C9C765804C6245B7F093 /* Pods-Pokemon Sightings */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		378D92F78B74089F8171AF3AD9FF5CF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397147C2008F4EDE8D074927CBB86A1F /* DebugMapViewController.xib in Resources */,
+				C43CC0CC456A894165EADF8E42DF391D /* hdar_close.png in Resources */,
+				4EBD55C87543277002EF7C1F4BBD113B /* hdar_close@2x.png in Resources */,
+				BE21156D9B423F24A7B2D9469D49A81C /* hdar_close@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		864879A3AF1C323DD4D69B99EACB288E /* Sources */ = {
+		0D666F54302A32489CEE76AD12A8FD75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DAFE7E824BB223F2F079E0634DE6295 /* Pods-Pokemon Sightings-dummy.m in Sources */,
+				B091364B69682AB6ECDA0B1E8C1947C4 /* ARAnnotation.swift in Sources */,
+				E96272FDD75DA8E90047202E112C2906 /* ARAnnotationView.swift in Sources */,
+				D78CB76184CF64FC9CD2A6293446B264 /* ARConfiguration.swift in Sources */,
+				4AB8D880D57623A8DC2AC6E2C19E3636 /* ARTrackingManager.swift in Sources */,
+				56E609FE1C6566B84BB50AAC3A572606 /* ARViewController.swift in Sources */,
+				EF301DE1FF4EFC33D92C4041652E931E /* DebugMapViewController.swift in Sources */,
+				90D8CB1B64E158A229801EC0AFC57817 /* HDAugmentedReality-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C2D6D0C6DDD52D5C8C3D518FAD9AB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1A92B8B33ABEF2B3571912BE0119832 /* Pods-Pokemon Sightings-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,18 +497,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F8A2481134E4D1DDD16D76DD5F3D42BB /* PBXTargetDependency */ = {
+		30426F1964CDA3EFDD294ED9CD81613F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Kingfisher;
 			target = C4944FEC314D1A66588651D006273ADE /* Kingfisher */;
-			targetProxy = A048B2B8EB7260057EC2108B2E0C1173 /* PBXContainerItemProxy */;
+			targetProxy = 927DA68A628FB3897B34843B47A3000A /* PBXContainerItemProxy */;
+		};
+		50FE85C369A371BC8A80E6F04FBDE128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HDAugmentedReality;
+			target = 25BA7D597CBBC52E7F72BEBFD1493CC3 /* HDAugmentedReality */;
+			targetProxy = 77A8EF2956475C857E46D73CF36007A6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		380C30050278E488BE23DB926933212E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC79E2E5D62D71F36463838727DAA58D /* Kingfisher.xcconfig */;
+			baseConfigurationReference = D1983B2829CADC5443D42A57B707D88A /* Kingfisher.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -436,7 +586,7 @@
 		};
 		6E53245BBAAAB71AD4E0EE52CA99FD28 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC79E2E5D62D71F36463838727DAA58D /* Kingfisher.xcconfig */;
+			baseConfigurationReference = D1983B2829CADC5443D42A57B707D88A /* Kingfisher.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -467,7 +617,39 @@
 			};
 			name = Debug;
 		};
-		BACD8E1731878F4951E39DE68733D7AC /* Release */ = {
+		7F85B53D3FFD5CA4FF70ED7DD17ABF52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD511033B74678BA64272AE6C85A8879 /* HDAugmentedReality.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HDAugmentedReality/HDAugmentedReality-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HDAugmentedReality/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HDAugmentedReality/HDAugmentedReality.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HDAugmentedReality;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8D9D43C67B74BA53BDCA12CBB43C7FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 32DF48000B53013751E33635E2A452D0 /* Pods-Pokemon Sightings.release.xcconfig */;
 			buildSettings = {
@@ -502,7 +684,7 @@
 			};
 			name = Release;
 		};
-		D528C377EA89BEC1D8EA89CE72F29D47 /* Debug */ = {
+		C4D32607254B6FC72DDEC753D976AA0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0069C8896CF0F0D42AE3452CD66D2171 /* Pods-Pokemon Sightings.debug.xcconfig */;
 			buildSettings = {
@@ -582,6 +764,39 @@
 			};
 			name = Debug;
 		};
+		E95372A2593D921604441F1AA42AC6CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD511033B74678BA64272AE6C85A8879 /* HDAugmentedReality.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HDAugmentedReality/HDAugmentedReality-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HDAugmentedReality/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HDAugmentedReality/HDAugmentedReality.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HDAugmentedReality;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -594,11 +809,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D67CB7256A34850079647C1342799C1 /* Build configuration list for PBXNativeTarget "Pods-Pokemon Sightings" */ = {
+		6474C3044EEE1E766E0B9A45C82056D7 /* Build configuration list for PBXNativeTarget "HDAugmentedReality" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D528C377EA89BEC1D8EA89CE72F29D47 /* Debug */,
-				BACD8E1731878F4951E39DE68733D7AC /* Release */,
+				E95372A2593D921604441F1AA42AC6CB /* Debug */,
+				7F85B53D3FFD5CA4FF70ED7DD17ABF52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A821470E7093F65B8F5DCCB0C0FE70B /* Build configuration list for PBXNativeTarget "Pods-Pokemon Sightings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4D32607254B6FC72DDEC753D976AA0A /* Debug */,
+				A8D9D43C67B74BA53BDCA12CBB43C7FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

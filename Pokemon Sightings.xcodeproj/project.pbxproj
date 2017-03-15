@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		BFC4EA82243944D2335EF929 /* Pods_Pokemon_Sightings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE18C4D8AC28ADAFA4B084C /* Pods_Pokemon_Sightings.framework */; };
+		C60065471E7702060098E133 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60065461E7702060098E133 /* MapViewController.swift */; };
+		C60065541E7721360098E133 /* PokemonAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60065531E7721360098E133 /* PokemonAnnotation.swift */; };
+		C6DD472D1E783775004190AF /* PokemonAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DD472C1E783775004190AF /* PokemonAnnotationView.swift */; };
+		C6DD472F1E7840BC004190AF /* PokemonARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DD472E1E7840BC004190AF /* PokemonARViewController.swift */; };
 		C6E216CF1E6F2BD500BEF2CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E216CE1E6F2BD500BEF2CC /* AppDelegate.swift */; };
 		C6E216D41E6F2BD500BEF2CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6E216D21E6F2BD500BEF2CC /* Main.storyboard */; };
 		C6E216D61E6F2BD500BEF2CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6E216D51E6F2BD500BEF2CC /* Assets.xcassets */; };
@@ -22,6 +26,10 @@
 /* Begin PBXFileReference section */
 		1B6714DCC83220F5E1BC5A3C /* Pods-Pokemon Sightings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokemon Sightings.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pokemon Sightings/Pods-Pokemon Sightings.release.xcconfig"; sourceTree = "<group>"; };
 		50DC2DD2FBFCEE4A88133E30 /* Pods-Pokemon Sightings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokemon Sightings.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pokemon Sightings/Pods-Pokemon Sightings.debug.xcconfig"; sourceTree = "<group>"; };
+		C60065461E7702060098E133 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C60065531E7721360098E133 /* PokemonAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonAnnotation.swift; sourceTree = "<group>"; };
+		C6DD472C1E783775004190AF /* PokemonAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonAnnotationView.swift; sourceTree = "<group>"; };
+		C6DD472E1E7840BC004190AF /* PokemonARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonARViewController.swift; sourceTree = "<group>"; };
 		C6E216CB1E6F2BD500BEF2CC /* Pokemon Sightings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokemon Sightings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E216CE1E6F2BD500BEF2CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6E216D31E6F2BD500BEF2CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,6 +64,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C600654A1E7716E70098E133 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				C60065461E7702060098E133 /* MapViewController.swift */,
+				C60065531E7721360098E133 /* PokemonAnnotation.swift */,
+				C6DD472C1E783775004190AF /* PokemonAnnotationView.swift */,
+			);
+			name = MapView;
+			sourceTree = "<group>";
+		};
+		C6DD47301E7840C1004190AF /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				C6DD472E1E7840BC004190AF /* PokemonARViewController.swift */,
+			);
+			name = AR;
+			sourceTree = "<group>";
+		};
 		C6E216C21E6F2BD500BEF2CC = {
 			isa = PBXGroup;
 			children = (
@@ -77,9 +103,12 @@
 		C6E216CD1E6F2BD500BEF2CC /* Pokemon Sightings */ = {
 			isa = PBXGroup;
 			children = (
+				C6E216E21E6F2DB200BEF2CC /* Pokemon.swift */,
+				C6DD47301E7840C1004190AF /* AR */,
+				C600654A1E7716E70098E133 /* MapView */,
 				C6E216EC1E6F9F5100BEF2CC /* Images */,
 				C6E216E91E6F94ED00BEF2CC /* ViewControllers */,
-				C6E216E81E6F94DA00BEF2CC /* Classes */,
+				C6E216E81E6F94DA00BEF2CC /* CustomCell */,
 				C6E216CE1E6F2BD500BEF2CC /* AppDelegate.swift */,
 				C6E216D21E6F2BD500BEF2CC /* Main.storyboard */,
 				C6E216D51E6F2BD500BEF2CC /* Assets.xcassets */,
@@ -89,13 +118,12 @@
 			path = "Pokemon Sightings";
 			sourceTree = "<group>";
 		};
-		C6E216E81E6F94DA00BEF2CC /* Classes */ = {
+		C6E216E81E6F94DA00BEF2CC /* CustomCell */ = {
 			isa = PBXGroup;
 			children = (
 				C6E216E61E6F54D300BEF2CC /* PokemonTableViewCell.swift */,
-				C6E216E21E6F2DB200BEF2CC /* Pokemon.swift */,
 			);
-			name = Classes;
+			name = CustomCell;
 			sourceTree = "<group>";
 		};
 		C6E216E91E6F94ED00BEF2CC /* ViewControllers */ = {
@@ -250,8 +278,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6E216E11E6F2C3300BEF2CC /* PokemonTableViewController.swift in Sources */,
+				C60065471E7702060098E133 /* MapViewController.swift in Sources */,
 				C6E216CF1E6F2BD500BEF2CC /* AppDelegate.swift in Sources */,
 				C6E216E51E6F38FE00BEF2CC /* AddPokemonViewController.swift in Sources */,
+				C60065541E7721360098E133 /* PokemonAnnotation.swift in Sources */,
+				C6DD472D1E783775004190AF /* PokemonAnnotationView.swift in Sources */,
+				C6DD472F1E7840BC004190AF /* PokemonARViewController.swift in Sources */,
 				C6E216E71E6F54D300BEF2CC /* PokemonTableViewCell.swift in Sources */,
 				C6E216E31E6F2DB200BEF2CC /* Pokemon.swift in Sources */,
 			);
